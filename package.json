@@ -94,6 +94,9 @@
     "testEnvironment": "node",
     "setupTestFrameworkScriptFile": "./test/unit/lib/setup.ts"
   },
+  "resolutions": {
+    "**/event-stream": "^4.0.1"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/bcrypt": "^2.0.0",
